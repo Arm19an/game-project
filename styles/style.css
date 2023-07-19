@@ -117,6 +117,34 @@
 .last-text{
     align-items: end;
 }
+.main-section{
+    margin-top: 20px;
+    text-align: center;
+    
+}
+.highlight{
+    background: linear-gradient(180deg, #F948B2 0%, #8758F1 100%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+
+}
+.tp{
+    color: #534C64;
+    text-align: center;
+}
+.main-img{
+    display: flex;
+    
+}
+.main-img>div>img{
+    width: 75%;
+    margin-left: 25px;
+    padding: 20px;
+    margin-top: 15px;
+
+    
+}
 @media screen and (max-width:576px) {
     .naav-container,.logo-sectionc.about-section ul{
         flex-direction: column;
