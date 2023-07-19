@@ -145,6 +145,36 @@
 
     
 }
+.main-section2{
+    margin-top: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.main-text{
+    margin-top: 145px;
+    margin-left: 95px;
+}
+.pi{
+    background: linear-gradient(180deg, #F948B2 0%, #8758F1 100%);
+   background-clip: text;
+   -webkit-background-clip: text;
+   -webkit-text-fill-color: transparent;
+}
+.tp2{
+    color: #534C64;
+    
+}
+.main-img2>img{
+    width: 83%;
+    margin-left: 170px;
+
+}
+.img3>img{
+    width: 75%;
+    margin-top: 300px;
+    margin-right: 76px;
+}
 @media screen and (max-width:576px) {
     .naav-container,.logo-sectionc.about-section ul{
         flex-direction: column;
