@@ -175,6 +175,24 @@
     margin-top: 300px;
     margin-right: 76px;
 }
+.img-icon{
+    margin-top: 30px;
+    display: flex;
+    flex-wrap: wrap;
+}
+.imgi{
+    width: 20%;
+    margin: 25px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+.imgi:hover{
+    border-radius: 50px;
+    border: 2px solid rgb(175, 175, 238);
+}
+
 @media screen and (max-width:576px) {
     .naav-container,.logo-sectionc.about-section ul{
         flex-direction: column;
